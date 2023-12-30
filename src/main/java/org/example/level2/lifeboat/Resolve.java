@@ -11,6 +11,7 @@ public class Resolve {
         int right = people.length- 1;
         int onBoat = 0;
         
+        // 인원을 다 태울때까지 반복
         while(onBoat != people.length) {
             if(left == right) {
                 onBoat++;
